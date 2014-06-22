@@ -6,7 +6,7 @@ library('reshape2')
 
 ##get wd to write to
 wd <- getwd()
-wd <- paste(wd,'/tinydata.csv',sep='')
+wd <- paste(wd,'/tidydata.txt',sep='')
 ## Read features
 features <- read.table('features.txt')[,2]
 feats <- grepl("std|mean",features)
